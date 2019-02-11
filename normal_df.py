@@ -25,6 +25,6 @@ plt.plot(xs, [normal_pdf(x, sigma=0.5) for x in xs], '-', label='mu=0,sigma=0.5'
 plt.plot(xs, [normal_pdf(x, sigma=-1) for x in xs], '-', label='mu=0,sigma=-1')
 
 plt.legend()
-plt.figure(figsize=(45,20))
+
 
 plt.show()
